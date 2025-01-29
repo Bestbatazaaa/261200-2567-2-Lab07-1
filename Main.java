@@ -80,7 +80,7 @@ public class Main {
             favouriteSee.put("Pedro", Color.YELLOW);
             favouriteSee.put("Cole" , Color.BLUE);
 
-             Set<String> Setkey = favouriteColors.keySet();
+             Set<String> Setkey = favouriteSee.keySet();
 
             for (String key : Setkey){
                 Color value = favouriteSee.get(key);
